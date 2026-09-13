@@ -1,13 +1,13 @@
-# Week 6 — HealthConnect Experience Lab: Model Improvement, Error Analysis & Validation
+# Week 6 - HealthConnect Experience Lab: Model Improvement, Error Analysis & Validation
 
 **Track:** Data Science
-**Project:** HealthConnect Clinic — Improving Patient Appointment Attendance and Healthcare Support Using Data and AI
+**Project:** HealthConnect Clinic - Improving Patient Appointment Attendance and Healthcare Support Using Data and AI
 
 ## Overview
 
-Week 6 moves the HealthConnect project from initial implementation (Week 5) into integration, advanced development, and validation. This week's focus: analyse the weaknesses of the Week 5 baseline model, conduct error analysis, refine features with justified evidence, develop and compare an improved model, and complete a **real, evidence-based cross-track integration** with the Data Analytics track — not just a conceptual dependency.
+Week 6 moves the HealthConnect project from initial implementation (Week 5) into integration, advanced development, and validation. This week's focus: analyse the weaknesses of the Week 5 baseline model, conduct error analysis, refine features with justified evidence, develop and compare an improved model, and complete a **real, evidence-based cross-track integration** with the Data Analytics track not just a conceptual dependency.
 
-## Data Science Track Contribution — Week 6
+## Data Science Track Contribution - Week 6
 
 - **Error analysis:** identified that the Week 5 model's False Negatives (missed no-shows) cluster among shorter booking lead times than the feature the model relies on most heavily.
 - **Feature refinement:** engineered 3 new features (`mid_lead_time`, `distance_lead_interaction`, `high_risk_history`), each directly motivated by a specific error-analysis finding.
@@ -17,8 +17,8 @@ Week 6 moves the HealthConnect project from initial implementation (Week 5) into
 
 ## Key Findings
 
-- Feature refinement and model comparison produced a marginal improvement over the Week 5 baseline (ROC-AUC ≈0.672 → ≈0.680) — an honest validation finding indicating a performance ceiling with the current feature set.
-- Incorporating the Data Analytics-informed features pushed performance slightly further (≈0.680 → ≈0.682) — a small, genuine gain directly attributable to cross-track collaboration.
+- Feature refinement and model comparison produced a marginal improvement over the Week 5 baseline (ROC-AUC ≈0.672 → ≈0.680) an honest validation finding indicating a performance ceiling with the current feature set.
+- Incorporating the Data Analytics-informed features pushed performance slightly further (≈0.680 → ≈0.682)  a small, genuine gain directly attributable to cross-track collaboration.
 - All 4 Data Analytics findings (previous no-shows, lead-time bands, reminder status, distance) were independently replicated on this project's dataset, cross-validating both tracks' work.
 
 ## Files
@@ -35,4 +35,4 @@ Week 6 moves the HealthConnect project from initial implementation (Week 5) into
 Patient-level split robustness check, classification threshold tuning tied to real operational costs, a basic subgroup fairness check, and finalising the handover interface for ML Engineering pipeline integration.
 
 ---
-*Part of the AnalystLab Africa Data Science Internship Programme — Batch D.*
+*Part of the AnalystLab Africa Data Science Internship Programme - Batch D.*
